@@ -2,7 +2,7 @@
 
 A **backend application** developed in **Java (Spring Boot)** for a full-stack **Task Management System**.  
 The backend is responsible for handling all task-related logic, data persistence and REST API communication.  
-The **frontend**, built separately using **React**, consumes this API to provide a user-friendly interface.
+The **frontend**, built separately using **React + Vite**, consumes this API to provide a user-friendly interface.
 
 ## Overview
 
