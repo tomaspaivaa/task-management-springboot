@@ -1,4 +1,5 @@
 {
+  "homepage": "https://tomaspaivaa.github.io/task-management-springboot",
   "name": "react-ts",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +9,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "clean": "rimraf .next out dist coverage .turbo node_modules package-lock.json && npm cache clean --force"
+    "clean": "rimraf .next out dist coverage .turbo node_modules package-lock.json && npm cache clean --force",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@nextui-org/react": "^2.4.8",
