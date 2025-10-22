@@ -7,7 +7,7 @@ import CreateUpdateTaskScreen from "./components/CreateUpdateTaskScreen";
 
 function App() {
     return (
-        <BrowserRouter basename="/task-management-springboot">
+        <BrowserRouter>
             <Routes>
                 <Route path="/" element={<TaskLists/>}/>
                 <Route path="/new-task-list" element={<CreateUpdateTaskListScreen/>}/>
