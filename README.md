@@ -24,9 +24,9 @@ The application is designed to be built to grow and run anywhere in **Docker**, 
 
 The backend follows a **layered architecture**, promoting modularity and maintainability:
 
-- **Controller Layer** - Defines RESTful endpoints for tasks and task lists  
-- **Service Layer** - Contains the business logic and validation  
-- **Repository Layer** - Handles database access using **Spring Data JPA**  
+- **Controller Layer** — Defines RESTful endpoints for tasks and task lists  
+- **Service Layer** — Contains the business logic and validation  
+- **Repository Layer** — Handles database access using **Spring Data JPA**  
 
 Additional features:
 - **DTOs and Mappers** for clean API–entity communication  
@@ -37,8 +37,8 @@ Additional features:
 
 The core of the system revolves around two entities:
 
-- **TaskList** → Represents a collection of related tasks  
-- **Task** → Represents an individual task (title, description, completion status, etc.)
+- **TaskList** — Represents a collection of related tasks  
+- **Task** — Represents an individual task (title, description, completion status, etc.)
 
 The relationship between them is **One-to-Many** (one TaskList contains many Tasks).  
 Database persistence is managed with **JPA** and **PostgreSQL**.
